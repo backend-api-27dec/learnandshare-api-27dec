@@ -203,7 +203,7 @@ const generateCertificatePDF = (user, category) => {
 
                 doc.fontSize(14).font('HarryP').fillColor('#000000').text(`Verify certificate: /${uniqueId}`, {
                     align: 'center',
-                    link: `https://hogwartsedx.vercel.app/verify/${uniqueId}`,
+                    link: `https://learnandshare.vercel.app/verify/${uniqueId}`,
                     continued: true
                 }).moveTo(verifyLinkX, verifyLinkY).text('.', {
                     continued: true
