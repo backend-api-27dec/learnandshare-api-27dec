@@ -30,7 +30,7 @@ const sendPasswordResetEmail = (req, email, token) => {
                 <p style="font-size: 16px; color: #666;">Greetings from HogwartsEdx,</p>
                 <p style="font-size: 16px; color: #666;">You are receiving this owl because you (or someone else) have requested to reset the password for your account. Click on the magical button below to reset your password:</p>
                 <div style="text-align: center; margin: 20px;">
-                    <a href="https://hogwartsedx.vercel.app/reset-password/${token}" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #4B0082; border-radius: 5px; text-decoration: none;">Reset Password</a>
+                    <a href="https://learnandshare.vercel.app/reset-password/${token}" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #4B0082; border-radius: 5px; text-decoration: none;">Reset Password</a>
                 </div>
                 <p style="font-size: 16px; color: #666;">Access Details:</p>
                 <ul style="font-size: 14px; color: #666;">
@@ -71,7 +71,7 @@ const sendPasswordResetConfirmationEmail = (req, email) => {
                 <p style="font-size: 16px; color: #666;">Hello from HogwartsEdx,</p>
                 <p style="font-size: 16px; color: #666;">This is to confirm that the password for your account has been successfully reset.</p>
                 <div style="text-align: center; margin: 20px;">
-                    <a href="https://hogwartsedx.vercel.app/login" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #4B0082; border-radius: 5px; text-decoration: none;">Login Now</a>
+                    <a href="https://learnandshare.vercel.app/login" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #4B0082; border-radius: 5px; text-decoration: none;">Login Now</a>
                 </div>
                 <p style="font-size: 16px; color: #666;">Access Details:</p>
                 <ul style="font-size: 14px; color: #666;">
