@@ -26,7 +26,7 @@ const sendNotificationEmail = (email, title, category) => {
             <section style="background-color: #f8f9fa; padding: 20px; border-radius: 10px;">
                 <h2 style="text-align: center; color: #007bff;">New Post Notification</h2>
                 <div style="margin-top: 20px;">
-                    <p style="font-size: 16px; color: #333; margin-bottom: 10px;">Check out the new post: <a href="https://hogwartsedx.vercel.app/category" style="color: #007bff; text-decoration: none;">${title}</a></p>
+                    <p style="font-size: 16px; color: #333; margin-bottom: 10px;">Check out the new post: <a href="https://learnandshare.vercel.app/category" style="color: #007bff; text-decoration: none;">${title}</a></p>
                 </div>
             </section>
             <footer style="text-align: center; margin-top: 20px;">
